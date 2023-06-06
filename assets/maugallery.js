@@ -236,12 +236,14 @@
     
       $(".active-tag").removeClass("active active-tag").css({
         "background-color": "",
-        "color": ""
+        "color": "",
+        "box-shadow": "" // Supprimer l'ombre de la boîte
       });
     
       $(this).addClass("active-tag").css({
         "background-color": "#BEB45A",
-        "color": "#fff"
+        "color": "#000",
+        "box-shadow": "rgba(0, 0, 0, 0.35) 0px 5px 15px" // Ajouter l'ombre de la boîte
       });
     
       var tag = $(this).data("images-toggle");

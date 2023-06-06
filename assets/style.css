@@ -54,31 +54,23 @@ body {
 
 .picture.left::before {
 	content: ' ';
-    background-color: #E5975F;
-    width: 100%;
-    height: 23%;
-    position: absolute;
-    /* bottom: 114px; */
-    z-index: -1;
-    /* left: 108px; */
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.about-me {
-	z-index: 1;
+	background-color: #E5975F;
+	width: 374px;
+	height: 329px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .picture {
-	/*flex: 1;*/
+	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
 }
 
 .picture img {
 	width: 100%;
-	
 
 }
 #about-me {
@@ -94,14 +86,15 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 18px;
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 15px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
+.gallery {
+	cursor: pointer;
 }
 .title{
 	text-align: center;
@@ -111,16 +104,16 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
-	border-radius:0 ;
+	border-radius: 1 ;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .nav-pills .nav-link {
 	color: #000;
-}
-.nav-link {
 	cursor: pointer;
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -203,6 +196,10 @@ body {
 	z-index: 1;
 }
 
+.service__price span {
+	color: #fff;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
@@ -258,9 +255,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1180px) {
-	/*.picture {
+	.picture {
 		flex : 2;
-	}*/
+	}
 	#about, #contact .container {
 		align-items: center;
 	}
@@ -366,4 +363,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
