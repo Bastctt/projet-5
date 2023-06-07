@@ -71,7 +71,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
@@ -196,9 +196,7 @@ body {
 	z-index: 1;
 }
 
-.service__price span {
-	color: #fff;
-}
+
 
 #contact {
 	margin: auto;
