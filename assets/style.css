@@ -18,32 +18,26 @@ body {
 	padding-block: 30px;
 	align-items: center;
 }
-
 .top-header .name {
 	font-size: 26px;
 }
-
 .nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
-
 .nav li {
 	padding-inline: 10px;
 }
-
 .nav a {
 	text-decoration: none;
 	color: #000
 }
-
 .social-link img {
 	width: 20px;
 	height: 20px;
 }
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -51,7 +45,6 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -62,13 +55,11 @@ body {
 	left: 0;
 	z-index: -1;
 }
-
 .picture {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
 }
-
 .picture img {
 	width: 100%;
 	height: auto;
